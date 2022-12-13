@@ -1,0 +1,13 @@
+Package: matfinan
+Title: Funções de Matemática Financeira
+Version: 0.0.0.9000
+Authors@R: 
+    person("Théo", "de Paula", , "theoadepaula@gmail.com", role = c("aut", "cre"))
+Description: O pacote possui uma séries de funções que calculam
+    informações relacionados à Matemática Financeira, como juros,
+    montante,capital,desconto e demais conceitos afins.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: pt
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
