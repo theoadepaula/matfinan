@@ -9,7 +9,7 @@
 #'
 #' @examples calcular_taxa_juros_simples(1000,2200,12)
 #'
-calcular_taxa_juros_simples <- function(capital,juros,tempo){
+calcular_taxa_juros_simples <- function(capital,montante,tempo){
 
   juros <- ( montante/capital - 1)/ tempo
 

@@ -4,14 +4,14 @@
 \alias{calcular_taxa_juros_simples}
 \title{Calcular taxa de juros simples}
 \usage{
-calcular_taxa_juros_simples(capital, juros, tempo)
+calcular_taxa_juros_simples(capital, montante, tempo)
 }
 \arguments{
 \item{capital}{número}
 
-\item{tempo}{número}
-
 \item{montante}{número}
+
+\item{tempo}{número}
 }
 \value{
 número
