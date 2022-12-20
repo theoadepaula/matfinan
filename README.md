@@ -1,25 +1,42 @@
+<!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # matfinan
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of matfinan is to ...
+O objetivo do pacote matfinan é descrever funções básicas de matemática
+financeira.
 
-## Installation
+## Instalação
 
-You can install the development version of matfinan like so:
+Você pode instalar o pacote matfinan de desenvolvedor do
+[GitHub](https://github.com/) assim:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("theoadepaula/matfinan")
 ```
 
-## Example
+## Exemplos
 
-This is a basic example which shows you how to solve a common problem:
+Segue abaixo dois exemplos de cálculo de montante para juros simples e
+juros compostos:
+
+### Juros Simples
 
 ``` r
 library(matfinan)
-## basic example code
+
+calcular_montante_juros_simples(1000,0.1,12)
+#> [1] 2200
 ```
 
+### Juros Compostos
+
+``` r
+library(matfinan)
+
+calcular_montante_juros_composto(1000,0.1,12)
+#> [1] 3138.428
+```

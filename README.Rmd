@@ -1,0 +1,50 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# matfinan
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+O objetivo do pacote matfinan é descrever funções básicas de matemática financeira.
+
+## Instalação
+
+Você pode instalar o pacote matfinan de desenvolvedor do [GitHub](https://github.com/) assim:
+
+``` {r install,eval=FALSE}
+# install.packages("devtools")
+devtools::install_github("theoadepaula/matfinan")
+```
+
+## Exemplos
+
+Segue abaixo dois exemplos de cálculo de montante para juros simples e juros compostos:
+
+### Juros Simples
+
+```{r}
+library(matfinan)
+
+calcular_montante_juros_simples(1000,0.1,12)
+```
+
+### Juros Compostos
+
+``` {r}
+library(matfinan)
+
+calcular_montante_juros_composto(1000,0.1,12)
+```
