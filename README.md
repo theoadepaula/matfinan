@@ -9,7 +9,8 @@
 <!-- badges: end -->
 
 O objetivo do pacote matfinan é descrever funções básicas de matemática
-financeira.
+financeira. Para conhecer melhor as funções dentro do pacote, veja no
+link <https://theoadepaula.github.io/matfinan/>.
 
 ## Instalação
 
