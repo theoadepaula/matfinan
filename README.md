@@ -1,8 +1,11 @@
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 # matfinan
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/theoadepaula/matfinan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/theoadepaula/matfinan/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 O objetivo do pacote matfinan é descrever funções básicas de matemática

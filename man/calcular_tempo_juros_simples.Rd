@@ -7,14 +7,14 @@
 calcular_tempo_juros_simples(capital, montante, juros)
 }
 \arguments{
-\item{capital}{número}
+\item{capital}{numero}
 
-\item{montante}{número}
+\item{montante}{numero}
 
-\item{juros}{número}
+\item{juros}{numero}
 }
 \value{
-número
+numero
 }
 \description{
 Calcular tempo de juros simples

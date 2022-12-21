@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # matfinan
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/theoadepaula/matfinan/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/theoadepaula/matfinan/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 O objetivo do pacote matfinan é descrever funções básicas de matemática financeira.
