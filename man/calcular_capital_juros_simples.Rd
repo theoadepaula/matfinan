@@ -7,14 +7,14 @@
 calcular_capital_juros_simples(montante, juros, tempo)
 }
 \arguments{
-\item{montante}{número do montante}
+\item{montante}{numero do montante}
 
-\item{juros}{número decimal dos juros}
+\item{juros}{numero decimal dos juros}
 
-\item{tempo}{número do tempo}
+\item{tempo}{numero do tempo}
 }
 \value{
-um número
+um numero
 }
 \description{
 Calcular capital de juros simples

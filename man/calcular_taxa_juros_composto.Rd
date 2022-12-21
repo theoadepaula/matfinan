@@ -7,14 +7,14 @@
 calcular_taxa_juros_composto(capital, montante, tempo)
 }
 \arguments{
-\item{capital}{número}
+\item{capital}{numero}
 
-\item{montante}{número}
+\item{montante}{numero}
 
-\item{tempo}{número}
+\item{tempo}{numero}
 }
 \value{
-número
+numero
 }
 \description{
 Calcular taxa de juros simples

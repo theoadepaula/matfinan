@@ -7,14 +7,14 @@
 calcular_montante_juros_composto(capital, juros, tempo)
 }
 \arguments{
-\item{capital}{número inicial do capital}
+\item{capital}{numero inicial do capital}
 
-\item{juros}{número decimal dos juros}
+\item{juros}{numero decimal dos juros}
 
-\item{tempo}{número do tempo}
+\item{tempo}{numero do tempo}
 }
 \value{
-um número
+um numero
 }
 \description{
 Calcular montante de juros compostos

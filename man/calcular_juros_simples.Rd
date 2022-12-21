@@ -7,14 +7,14 @@
 calcular_juros_simples(capital, taxa, tempo)
 }
 \arguments{
-\item{capital}{número}
+\item{capital}{numero}
 
-\item{taxa}{número}
+\item{taxa}{numero}
 
-\item{tempo}{número}
+\item{tempo}{numero}
 }
 \value{
-número
+numero
 }
 \description{
 Calcular juros simples
